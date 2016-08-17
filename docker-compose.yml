@@ -1,0 +1,6 @@
+mongo:
+  image: mongo:3.2
+  ports:
+    - "27017:27017"
+  volumes:
+    - '/home/docker/compose/meta/data/mongo:/data/db'
